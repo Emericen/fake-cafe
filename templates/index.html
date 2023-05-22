@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rose's Coffee Shop</title>
+</head>
+<body>
+    <h1>Rose's Coffee Shop</h1>
+    <h2>Orders:</h2>
+    <ul>
+        {% for order in orders %}
+        <li>{{ order }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
